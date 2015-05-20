@@ -41,6 +41,9 @@ static NSString *const kProfitKey = @"Prof";
     self.graphView.userInteractionEnabled = YES;
     self.view.userInteractionEnabled = YES;
     [self mySlider];
+}
+
+-(void)fillTest {
     int m = 100;
     float v = 1.f;
     double time[2] = {0,0};
